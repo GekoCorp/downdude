@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stream</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+    }
+
+    .banner {
+      width: 100%;
+      background: #ff0000;
+      color: #ffffff;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      padding: 1rem 0;
+      box-shadow: 0 0 15px red;
+      z-index: 100;
+    }
+
+    .cinema-container {
+      margin-top: 4rem;
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 30px #000000;
+      max-width: 90vw;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border: 6px solid #333;
+      border-radius: 10px;
+      background: black;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #ccc;
+      text-shadow: 1px 1px 4px black;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">WE ARE DOWN!! Prob Tryna fix the Website</div>
+  <div class="cinema-container">
+    <h2>Enjoy the show (if it loads)</h2>
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      Your browser doesn't support the video tag.
+    </video>
+  </div>
+</body>
+</html>
